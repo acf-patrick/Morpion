@@ -1,14 +1,8 @@
 # -*-coding:utf-8-*
+__author__ = "acf-patrick"
 
-"""Module où les classes utiles au programme sont déclarées
-"""
-####################################################                                                           #
-#Bibliothèque: PyGame                                                       #
-#Auteur: Tojoniaina Patrick                                                 #
-#Déscription: Simple jeu de morpion ecrit en Python             #
-####################################################
+""" Module où les classes utiles au programme sont déclarées """
 
-#-*- coding:Latin-1 -*
 import pygame
 from random import randrange
 from pygame.locals import*

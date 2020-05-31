@@ -1,12 +1,7 @@
 # -*-coding:utf-8-*
-
+__author__ = "acf-patrick"
 """Module où les constantes sont définies"""
-####################################################
-#Bibliothèque: PyGame
-#Auteur: Tojoniaina Patrick
-#Déscription: Simple jeu de morpion ecrit en Python
-####################################################
-#-*- coding:Latin-1 -*
+
 VIDE=0
 O=1#rond
 X=2

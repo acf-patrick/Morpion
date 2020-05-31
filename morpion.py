@@ -1,11 +1,6 @@
+# -*-coding:utf-8 -*
+__author__ = "acf-patrick"
 
-####################################################
-#Bibliotheque: PyGame 
-#Auteur: Tojoniaina Patrick 
-#Description: Simple jeu de morpion ecrit en Python
-####################################################
-
-# -*-coding:Latin-1 -*
 import pygame
 from pygame.locals import*
 from constante import*
