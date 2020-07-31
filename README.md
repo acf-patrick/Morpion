@@ -1,5 +1,7 @@
-# Tictactoe game #
+# Tictactoe game
+Le jeu a été fait en <em>Python</em> et le programme utilise Pygame pour le rendu.
 
-This game was made with python 3.4 and requiers at least
-Pygame version 1.9.2.
-You can choose to play with the computer or in duo.
+## Description
+ L'utilisateur peut jouer en solo contre le programme ou à deux.
+ Le programme utilise un raisonnement assez <em>simpliste</em> pour jouer contre l'utilisateur,
+ en utilisant un algorithme basique tel que le min-max.
