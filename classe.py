@@ -37,25 +37,32 @@ class Objet:
         """Objet(tuple, int) -> Objet"""
         self.image = pygame.Surface((70,70))
         self.type = VIDE
-        self.vide = True#un booleen ,simple quéstion de lisibilité
-        self.x = case[x][y][0]#coordonnées en pixel..Rappelons que 'case' est une liste bidimensionnelle de tuple
+        self.vide = True
+        self.x = case[x][y][0]
         self.y = case[x][y][1]
-    def __eq__(self, objet):#Surcharge de l'operateur égalité
+
+    def __eq__(self, objet):
         return objet.type == self.type
+
     def aff(self, screen):
         """affiche l'objet en quéstion
           aff(Surface ) -> None"""
+        
         if self.type is not VIDE:
             screen.blit(self.image ,(self.x, self.y))
+
     def clic(self, x, y):
         """Gestion du clic
            clic(int, int) -> bool"""
         return ((self.x < x and x < self.x+self.image.get_width())and (self.y < y and y < self.y+self.image.get_height()))
+    
     def setType(self, t):
         """Met à jour le type de l'objet
            setType(int ) -> None""" 
+        
         self.type = t
         self.vide = (t is VIDE)
+        
         if t is O:
             self.image = pygame.image.load("data/rond.jpg")
         elif t is X:
