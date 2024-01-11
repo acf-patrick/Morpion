@@ -413,7 +413,7 @@ class Moteur:
         tmp.set_alpha(120)
         screen.blit(tmp, (0,0))
 
-        police = pygame.font.Font("data/pol.ttf", 40)
+        police = pygame.font.Font("data/pol.ttf", 36)
 
         if self.plateau.gagnant() is not VIDE:
             if self.plateau.gagnant() is O:
