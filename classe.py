@@ -375,7 +375,7 @@ class Moteur:
                         self.tour = opp(self.tour)
             
             for event in pygame.event.get():
-                pygame.time.Clock().tick(30)
+                # pygame.time.Clock().tick(30)
                 if event.type == QUIT:
                     return QUITTER
                 
